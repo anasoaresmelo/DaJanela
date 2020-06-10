@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E87C49924888816008AFFEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E87C49824888816008AFFEA /* AppDelegate.swift */; };
+		0E87C49B24888816008AFFEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E87C49A24888816008AFFEA /* SceneDelegate.swift */; };
+		0E87C49D24888816008AFFEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E87C49C24888816008AFFEA /* ViewController.swift */; };
+		0E87C4A024888816008AFFEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E87C49E24888816008AFFEA /* Main.storyboard */; };
+		0E87C4A224888817008AFFEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E87C4A124888817008AFFEA /* Assets.xcassets */; };
+		0E87C4A524888817008AFFEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E87C4A324888817008AFFEA /* LaunchScreen.storyboard */; };
+		0E87C4B024888818008AFFEA /* Da_janelaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E87C4AF24888818008AFFEA /* Da_janelaTests.swift */; };
+		0E87C4BB24888818008AFFEA /* Da_janelaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E87C4BA24888818008AFFEA /* Da_janelaUITests.swift */; };
+		0E87C4CF248947BA008AFFEA /* Windows.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E87C4CE248947BA008AFFEA /* Windows.storyboard */; };
+		0E87C4D12489480F008AFFEA /* Collections.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E87C4D02489480F008AFFEA /* Collections.storyboard */; };
+		0E87C4D324894842008AFFEA /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E87C4D224894842008AFFEA /* Settings.storyboard */; };
+		0E87C4D524898884008AFFEA /* FirstConversation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E87C4D424898884008AFFEA /* FirstConversation.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E87C4AC24888818008AFFEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E87C48D24888816008AFFEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E87C49424888816008AFFEA;
+			remoteInfo = "Da janela";
+		};
+		0E87C4B724888818008AFFEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E87C48D24888816008AFFEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E87C49424888816008AFFEA;
+			remoteInfo = "Da janela";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E87C49524888816008AFFEA /* Da janela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Da janela.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E87C49824888816008AFFEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E87C49A24888816008AFFEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0E87C49C24888816008AFFEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E87C49F24888816008AFFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E87C4A124888817008AFFEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E87C4A424888817008AFFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E87C4A624888817008AFFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E87C4AB24888817008AFFEA /* Da janelaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Da janelaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E87C4AF24888818008AFFEA /* Da_janelaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Da_janelaTests.swift; sourceTree = "<group>"; };
+		0E87C4B124888818008AFFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E87C4B624888818008AFFEA /* Da janelaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Da janelaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E87C4BA24888818008AFFEA /* Da_janelaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Da_janelaUITests.swift; sourceTree = "<group>"; };
+		0E87C4BC24888818008AFFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E87C4CE248947BA008AFFEA /* Windows.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Windows.storyboard; sourceTree = "<group>"; };
+		0E87C4D02489480F008AFFEA /* Collections.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Collections.storyboard; sourceTree = "<group>"; };
+		0E87C4D224894842008AFFEA /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		0E87C4D424898884008AFFEA /* FirstConversation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FirstConversation.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E87C49224888816008AFFEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E87C4A824888817008AFFEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E87C4B324888818008AFFEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E87C48C24888816008AFFEA = {
+			isa = PBXGroup;
+			children = (
+				0E87C49724888816008AFFEA /* Da janela */,
+				0E87C4AE24888818008AFFEA /* Da janelaTests */,
+				0E87C4B924888818008AFFEA /* Da janelaUITests */,
+				0E87C49624888816008AFFEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E87C49624888816008AFFEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E87C49524888816008AFFEA /* Da janela.app */,
+				0E87C4AB24888817008AFFEA /* Da janelaTests.xctest */,
+				0E87C4B624888818008AFFEA /* Da janelaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E87C49724888816008AFFEA /* Da janela */ = {
+			isa = PBXGroup;
+			children = (
+				0E87C49824888816008AFFEA /* AppDelegate.swift */,
+				0E87C49A24888816008AFFEA /* SceneDelegate.swift */,
+				0E87C49C24888816008AFFEA /* ViewController.swift */,
+				0E87C49E24888816008AFFEA /* Main.storyboard */,
+				0E87C4D02489480F008AFFEA /* Collections.storyboard */,
+				0E87C4CE248947BA008AFFEA /* Windows.storyboard */,
+				0E87C4D424898884008AFFEA /* FirstConversation.storyboard */,
+				0E87C4D224894842008AFFEA /* Settings.storyboard */,
+				0E87C4A124888817008AFFEA /* Assets.xcassets */,
+				0E87C4A324888817008AFFEA /* LaunchScreen.storyboard */,
+				0E87C4A624888817008AFFEA /* Info.plist */,
+			);
+			path = "Da janela";
+			sourceTree = "<group>";
+		};
+		0E87C4AE24888818008AFFEA /* Da janelaTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E87C4AF24888818008AFFEA /* Da_janelaTests.swift */,
+				0E87C4B124888818008AFFEA /* Info.plist */,
+			);
+			path = "Da janelaTests";
+			sourceTree = "<group>";
+		};
+		0E87C4B924888818008AFFEA /* Da janelaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E87C4BA24888818008AFFEA /* Da_janelaUITests.swift */,
+				0E87C4BC24888818008AFFEA /* Info.plist */,
+			);
+			path = "Da janelaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E87C49424888816008AFFEA /* Da janela */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E87C4BF24888818008AFFEA /* Build configuration list for PBXNativeTarget "Da janela" */;
+			buildPhases = (
+				0E87C49124888816008AFFEA /* Sources */,
+				0E87C49224888816008AFFEA /* Frameworks */,
+				0E87C49324888816008AFFEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Da janela";
+			productName = "Da janela";
+			productReference = 0E87C49524888816008AFFEA /* Da janela.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E87C4AA24888817008AFFEA /* Da janelaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E87C4C224888818008AFFEA /* Build configuration list for PBXNativeTarget "Da janelaTests" */;
+			buildPhases = (
+				0E87C4A724888817008AFFEA /* Sources */,
+				0E87C4A824888817008AFFEA /* Frameworks */,
+				0E87C4A924888817008AFFEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E87C4AD24888818008AFFEA /* PBXTargetDependency */,
+			);
+			name = "Da janelaTests";
+			productName = "Da janelaTests";
+			productReference = 0E87C4AB24888817008AFFEA /* Da janelaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E87C4B524888818008AFFEA /* Da janelaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E87C4C524888818008AFFEA /* Build configuration list for PBXNativeTarget "Da janelaUITests" */;
+			buildPhases = (
+				0E87C4B224888818008AFFEA /* Sources */,
+				0E87C4B324888818008AFFEA /* Frameworks */,
+				0E87C4B424888818008AFFEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E87C4B824888818008AFFEA /* PBXTargetDependency */,
+			);
+			name = "Da janelaUITests";
+			productName = "Da janelaUITests";
+			productReference = 0E87C4B624888818008AFFEA /* Da janelaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E87C48D24888816008AFFEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Ana Carolina Soares de Melo";
+				TargetAttributes = {
+					0E87C49424888816008AFFEA = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					0E87C4AA24888817008AFFEA = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 0E87C49424888816008AFFEA;
+					};
+					0E87C4B524888818008AFFEA = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 0E87C49424888816008AFFEA;
+					};
+				};
+			};
+			buildConfigurationList = 0E87C49024888816008AFFEA /* Build configuration list for PBXProject "Da janela" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E87C48C24888816008AFFEA;
+			productRefGroup = 0E87C49624888816008AFFEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E87C49424888816008AFFEA /* Da janela */,
+				0E87C4AA24888817008AFFEA /* Da janelaTests */,
+				0E87C4B524888818008AFFEA /* Da janelaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E87C49324888816008AFFEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E87C4A524888817008AFFEA /* LaunchScreen.storyboard in Resources */,
+				0E87C4A224888817008AFFEA /* Assets.xcassets in Resources */,
+				0E87C4D12489480F008AFFEA /* Collections.storyboard in Resources */,
+				0E87C4A024888816008AFFEA /* Main.storyboard in Resources */,
+				0E87C4CF248947BA008AFFEA /* Windows.storyboard in Resources */,
+				0E87C4D524898884008AFFEA /* FirstConversation.storyboard in Resources */,
+				0E87C4D324894842008AFFEA /* Settings.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E87C4A924888817008AFFEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E87C4B424888818008AFFEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E87C49124888816008AFFEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E87C49D24888816008AFFEA /* ViewController.swift in Sources */,
+				0E87C49924888816008AFFEA /* AppDelegate.swift in Sources */,
+				0E87C49B24888816008AFFEA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E87C4A724888817008AFFEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E87C4B024888818008AFFEA /* Da_janelaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E87C4B224888818008AFFEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E87C4BB24888818008AFFEA /* Da_janelaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E87C4AD24888818008AFFEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E87C49424888816008AFFEA /* Da janela */;
+			targetProxy = 0E87C4AC24888818008AFFEA /* PBXContainerItemProxy */;
+		};
+		0E87C4B824888818008AFFEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E87C49424888816008AFFEA /* Da janela */;
+			targetProxy = 0E87C4B724888818008AFFEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E87C49E24888816008AFFEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E87C49F24888816008AFFEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E87C4A324888817008AFFEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E87C4A424888817008AFFEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E87C4BD24888818008AFFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E87C4BE24888818008AFFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E87C4C024888818008AFFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Da janela/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.ufpe.cin.academy-acsm.Da-janela";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E87C4C124888818008AFFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Da janela/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.ufpe.cin.academy-acsm.Da-janela";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0E87C4C324888818008AFFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Da janelaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.ufpe.cin.academy-acsm.Da-janelaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Da janela.app/Da janela";
+			};
+			name = Debug;
+		};
+		0E87C4C424888818008AFFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Da janelaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.ufpe.cin.academy-acsm.Da-janelaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Da janela.app/Da janela";
+			};
+			name = Release;
+		};
+		0E87C4C624888818008AFFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Da janelaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.ufpe.cin.academy-acsm.Da-janelaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Da janela";
+			};
+			name = Debug;
+		};
+		0E87C4C724888818008AFFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Da janelaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.ufpe.cin.academy-acsm.Da-janelaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Da janela";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E87C49024888816008AFFEA /* Build configuration list for PBXProject "Da janela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E87C4BD24888818008AFFEA /* Debug */,
+				0E87C4BE24888818008AFFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E87C4BF24888818008AFFEA /* Build configuration list for PBXNativeTarget "Da janela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E87C4C024888818008AFFEA /* Debug */,
+				0E87C4C124888818008AFFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E87C4C224888818008AFFEA /* Build configuration list for PBXNativeTarget "Da janelaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E87C4C324888818008AFFEA /* Debug */,
+				0E87C4C424888818008AFFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E87C4C524888818008AFFEA /* Build configuration list for PBXNativeTarget "Da janelaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E87C4C624888818008AFFEA /* Debug */,
+				0E87C4C724888818008AFFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E87C48D24888816008AFFEA /* Project object */;
+}

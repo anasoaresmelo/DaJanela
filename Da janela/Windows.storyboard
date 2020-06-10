@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5XS-T3-nys">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Janelas-->
+        <scene sceneID="vXi-vd-VKQ">
+            <objects>
+                <navigationController id="5XS-T3-nys" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Janelas" image="house" catalog="system" selectedImage="house.fill" id="mjy-sp-v8w">
+                        <color key="badgeColor" red="0.85098039219999999" green="0.1176470588" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="7xt-JQ-a7q">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.0" green="0.1019607843" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="IMf-Vp-rMq" kind="relationship" relationship="rootViewController" id="pZv-au-ete"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5oe-s3-XzM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1700" y="911"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qKL-80-O21">
+            <objects>
+                <viewController id="IMf-Vp-rMq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EQy-Y3-Hys">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vista principal" translatesAutoresizingMaskIntoConstraints="NO" id="iZr-nG-7Sy">
+                                <rect key="frame" x="44" y="204" width="327" height="451"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ev-xR-FPQ">
+                                <rect key="frame" x="20" y="196" width="375" height="477"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="janela principal"/>
+                                <connections>
+                                    <segue destination="eXQ-Nz-Ho2" kind="show" animates="NO" id="Ee3-TI-2fq"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xicara" translatesAutoresizingMaskIntoConstraints="NO" id="GNu-kP-Vgz">
+                                <rect key="frame" x="299" y="566" width="122" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plantinha" translatesAutoresizingMaskIntoConstraints="NO" id="wq2-gH-pZX">
+                                <rect key="frame" x="-57" y="495" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Nw1-qr-8AN"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yW3-HS-ca7">
+                        <barButtonItem key="backBarButtonItem" title=" " id="GMq-lx-wwR"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8eV-oq-lCS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-807.24637681159425" y="910.71428571428567"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ER6-be-Tmt">
+            <objects>
+                <viewController id="eXQ-Nz-Ho2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sU1-WO-VPt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fundo degradê" translatesAutoresizingMaskIntoConstraints="NO" id="Fxf-Jc-OzK">
+                                <rect key="frame" x="-39" y="-7" width="493" height="862"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asfalto" translatesAutoresizingMaskIntoConstraints="NO" id="S3O-oZ-eek">
+                                <rect key="frame" x="-106" y="649" width="610" height="331"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="predio vizinho" translatesAutoresizingMaskIntoConstraints="NO" id="5zK-fh-cc7">
+                                <rect key="frame" x="-65" y="187" width="544" height="685"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xlk-7N-3fG">
+                                <rect key="frame" x="262" y="372" width="78" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="janela aberta"/>
+                                <connections>
+                                    <segue destination="wb4-HU-iJc" kind="show" id="EN7-vZ-78d"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" red="0.0" green="0.1019607843" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Kcu-JQ-C23"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="D3m-lx-sZY">
+                        <barButtonItem key="backBarButtonItem" title=" " id="239-jK-byQ"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yhP-oj-dd9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-20.289855072463769" y="910.71428571428567"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="m0A-bM-MaC">
+            <objects>
+                <viewController id="wb4-HU-iJc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bFj-ob-rRb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bmr-05-tTV">
+                                <rect key="frame" x="101" y="328" width="213" height="420"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="porta"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vá até a porta para receber sua visita!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="54h-7B-JeM">
+                                <rect key="frame" x="101" y="132" width="213" height="182"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" red="0.0" green="0.1019607843" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="up7-on-QLT">
+                                <rect key="frame" x="195" y="140" width="24" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.85098039219999999" green="0.1176470588" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" image="camera.fill" catalog="system"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="VFr-vo-k3s"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cJP-om-pLM">
+                        <barButtonItem key="backBarButtonItem" title=" " id="XUk-OE-bbI"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uCj-gh-Ldt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="757.97101449275374" y="910.71428571428567"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="Hfa-Py-b1t">
+            <objects>
+                <viewControllerPlaceholder id="3Jg-VQ-oDn" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ZrK-D3-g1B"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jtw-Ql-pGA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1382" y="942"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="asfalto" width="414" height="57"/>
+        <image name="camera.fill" catalog="system" width="128" height="96"/>
+        <image name="fundo degradê" width="414" height="740"/>
+        <image name="house" catalog="system" width="128" height="110"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="janela aberta" width="78" height="89"/>
+        <image name="janela principal" width="375" height="477"/>
+        <image name="plantinha" width="95" height="149"/>
+        <image name="porta" width="213" height="420"/>
+        <image name="predio vizinho" width="345" height="683"/>
+        <image name="vista principal" width="251" height="463"/>
+        <image name="xicara" width="53" height="58"/>
+    </resources>
+</document>
