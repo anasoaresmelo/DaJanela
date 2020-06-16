@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wmg-CP-pmj">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2h2-OA-Hft">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -7,39 +7,20 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Coleções-->
-        <scene sceneID="XnO-aq-MYQ">
+        <!--Colletions View Controller-->
+        <scene sceneID="fly-xc-EPN">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ssz-gM-IFz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <viewController id="wmg-CP-pmj" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="P00-c2-f25">
+                <viewController id="2h2-OA-Hft" customClass="ColletionsViewController" customModule="Da_janela" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TSz-Lf-gNm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="IbN-GF-W6F">
-                                <rect key="frame" x="100" y="142" width="215" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="Visitas"/>
-                                    <segment title="Leituras"/>
-                                </segments>
-                            </segmentedControl>
-                        </subviews>
-                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="tintColor" red="0.85098039219999999" green="0.1176470588" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
-                        <viewLayoutGuide key="safeArea" id="zeU-ol-0jk"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="p84-IN-UYs"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Coleções" image="archivebox" catalog="system" selectedImage="archivebox.fill" id="VX2-cY-OMh">
-                        <color key="badgeColor" red="0.85098039219999999" green="0.1176470588" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
-                    </tabBarItem>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BKA-Ph-xst" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1604" y="196"/>
+            <point key="canvasLocation" x="-328" y="168"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="archivebox" catalog="system" width="128" height="106"/>
-        <image name="archivebox.fill" catalog="system" width="128" height="106"/>
-    </resources>
 </document>

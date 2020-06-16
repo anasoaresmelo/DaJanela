@@ -15,10 +15,14 @@
 		0E87C4A524888817008AFFEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E87C4A324888817008AFFEA /* LaunchScreen.storyboard */; };
 		0E87C4B024888818008AFFEA /* Da_janelaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E87C4AF24888818008AFFEA /* Da_janelaTests.swift */; };
 		0E87C4BB24888818008AFFEA /* Da_janelaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E87C4BA24888818008AFFEA /* Da_janelaUITests.swift */; };
-		0E87C4CF248947BA008AFFEA /* Windows.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E87C4CE248947BA008AFFEA /* Windows.storyboard */; };
+		0E87C4CF248947BA008AFFEA /* Outsideview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E87C4CE248947BA008AFFEA /* Outsideview.storyboard */; };
 		0E87C4D12489480F008AFFEA /* Collections.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E87C4D02489480F008AFFEA /* Collections.storyboard */; };
 		0E87C4D324894842008AFFEA /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E87C4D224894842008AFFEA /* Settings.storyboard */; };
 		0E87C4D524898884008AFFEA /* FirstConversation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E87C4D424898884008AFFEA /* FirstConversation.storyboard */; };
+		0EB346C72499363300FED97A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB346C62499363300FED97A /* SettingsViewController.swift */; };
+		0EB346C92499368400FED97A /* ColletionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB346C82499368400FED97A /* ColletionsViewController.swift */; };
+		0EB346CB249936AE00FED97A /* OutsideviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB346CA249936AE00FED97A /* OutsideviewViewController.swift */; };
+		0EB346CD2499395500FED97A /* FirstConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB346CC2499395500FED97A /* FirstConversationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +57,14 @@
 		0E87C4B624888818008AFFEA /* Da janelaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Da janelaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E87C4BA24888818008AFFEA /* Da_janelaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Da_janelaUITests.swift; sourceTree = "<group>"; };
 		0E87C4BC24888818008AFFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E87C4CE248947BA008AFFEA /* Windows.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Windows.storyboard; sourceTree = "<group>"; };
+		0E87C4CE248947BA008AFFEA /* Outsideview.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Outsideview.storyboard; sourceTree = "<group>"; };
 		0E87C4D02489480F008AFFEA /* Collections.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Collections.storyboard; sourceTree = "<group>"; };
 		0E87C4D224894842008AFFEA /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		0E87C4D424898884008AFFEA /* FirstConversation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FirstConversation.storyboard; sourceTree = "<group>"; };
+		0EB346C62499363300FED97A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0EB346C82499368400FED97A /* ColletionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColletionsViewController.swift; sourceTree = "<group>"; };
+		0EB346CA249936AE00FED97A /* OutsideviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutsideviewViewController.swift; sourceTree = "<group>"; };
+		0EB346CC2499395500FED97A /* FirstConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstConversationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,9 +119,13 @@
 				0E87C49A24888816008AFFEA /* SceneDelegate.swift */,
 				0E87C49C24888816008AFFEA /* ViewController.swift */,
 				0E87C49E24888816008AFFEA /* Main.storyboard */,
+				0EB346C82499368400FED97A /* ColletionsViewController.swift */,
 				0E87C4D02489480F008AFFEA /* Collections.storyboard */,
-				0E87C4CE248947BA008AFFEA /* Windows.storyboard */,
+				0EB346CA249936AE00FED97A /* OutsideviewViewController.swift */,
+				0E87C4CE248947BA008AFFEA /* Outsideview.storyboard */,
+				0EB346CC2499395500FED97A /* FirstConversationViewController.swift */,
 				0E87C4D424898884008AFFEA /* FirstConversation.storyboard */,
+				0EB346C62499363300FED97A /* SettingsViewController.swift */,
 				0E87C4D224894842008AFFEA /* Settings.storyboard */,
 				0E87C4A124888817008AFFEA /* Assets.xcassets */,
 				0E87C4A324888817008AFFEA /* LaunchScreen.storyboard */,
@@ -248,7 +260,7 @@
 				0E87C4A224888817008AFFEA /* Assets.xcassets in Resources */,
 				0E87C4D12489480F008AFFEA /* Collections.storyboard in Resources */,
 				0E87C4A024888816008AFFEA /* Main.storyboard in Resources */,
-				0E87C4CF248947BA008AFFEA /* Windows.storyboard in Resources */,
+				0E87C4CF248947BA008AFFEA /* Outsideview.storyboard in Resources */,
 				0E87C4D524898884008AFFEA /* FirstConversation.storyboard in Resources */,
 				0E87C4D324894842008AFFEA /* Settings.storyboard in Resources */,
 			);
@@ -275,9 +287,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EB346C92499368400FED97A /* ColletionsViewController.swift in Sources */,
 				0E87C49D24888816008AFFEA /* ViewController.swift in Sources */,
 				0E87C49924888816008AFFEA /* AppDelegate.swift in Sources */,
+				0EB346CD2499395500FED97A /* FirstConversationViewController.swift in Sources */,
 				0E87C49B24888816008AFFEA /* SceneDelegate.swift in Sources */,
+				0EB346C72499363300FED97A /* SettingsViewController.swift in Sources */,
+				0EB346CB249936AE00FED97A /* OutsideviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
