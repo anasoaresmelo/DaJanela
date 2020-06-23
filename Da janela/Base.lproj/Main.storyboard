@@ -23,7 +23,7 @@
                                 <rect key="frame" x="66" y="210" width="284" height="405"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="l16-qI-hdg" kind="show" id="pNk-IP-VhU"/>
+                                    <segue destination="l16-qI-hdg" kind="show" id="jGd-z8-wUD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nc9-lU-JIc">
@@ -31,7 +31,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="closed-chest"/>
                                 <connections>
-                                    <segue destination="ZZW-rJ-Cm2" kind="presentation" id="fow-Ni-Qfw"/>
+                                    <segue destination="ZZW-rJ-Cm2" kind="show" id="AWA-bc-aP6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ch9-rs-XAm">
@@ -39,13 +39,19 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="settings"/>
                                 <connections>
-                                    <segue destination="7VI-FS-DtJ" kind="show" id="m8N-WT-tq1"/>
+                                    <segue destination="7VI-FS-DtJ" kind="show" id="lgk-Ch-zLW"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="qiu-hK-VAS"/>
                     </view>
+                    <connections>
+                        <outlet property="chestButton" destination="Nc9-lU-JIc" id="Sfl-OA-xsl"/>
+                        <outlet property="insideviewImage" destination="n9z-b4-uMm" id="vaa-bb-BCj"/>
+                        <outlet property="settingsButton" destination="ch9-rs-XAm" id="glu-cz-u1I"/>
+                        <outlet property="windowButton" destination="uU8-Wg-cEC" id="TGD-gB-vUX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YFM-yq-2f1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -79,7 +85,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2pu-ug-eYE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-180" y="-23"/>
+            <point key="canvasLocation" x="-173" y="-23"/>
         </scene>
     </scenes>
     <resources>
