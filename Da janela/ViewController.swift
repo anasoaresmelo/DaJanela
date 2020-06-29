@@ -25,35 +25,44 @@ class ViewController: UIViewController {
         //Autolayout for Inside view Image
         insideviewImage.translatesAutoresizingMaskIntoConstraints = false
         
-        insideviewImage.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
-        insideviewImage.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
-        insideviewImage.widthAnchor.constraint(equalToConstant: self.view.frame.width).isActive = true
-        
+        NSLayoutConstraint.activate([
+            insideviewImage.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
+            insideviewImage.centerYAnchor.constraint(equalTo: self.view.centerYAnchor),
+            insideviewImage.widthAnchor.constraint(equalToConstant: self.view.frame.width)
+        ])
         
         //Autolayout for Window Button
         windowButton.backgroundColor = .clear
         windowButton.translatesAutoresizingMaskIntoConstraints = false
         
-        windowButton.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
-        windowButton.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
-        windowButton.heightAnchor.constraint(equalToConstant: self.view.frame.height*0.55).isActive = true
-        windowButton.widthAnchor.constraint(equalToConstant: self.view.frame.width*0.8).isActive = true
+        NSLayoutConstraint.activate([
+            windowButton.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
+            windowButton.centerYAnchor.constraint(equalTo: self.view.centerYAnchor),
+            windowButton.heightAnchor.constraint(equalToConstant: self.view.frame.height*0.55),
+            windowButton.widthAnchor.constraint(equalToConstant: self.view.frame.width*0.8)
+        ])
         
         //Autolayout for Settings Button
         settingsButton.translatesAutoresizingMaskIntoConstraints = false
         
-        settingsButton.heightAnchor.constraint(equalToConstant: 40).isActive = true
-        settingsButton.widthAnchor.constraint(equalToConstant: 40).isActive = true
-        
-        self.view.addConstraint(NSLayoutConstraint(item: windowButton!, attribute: .top, relatedBy: .equal, toItem: settingsButton, attribute: .bottom, multiplier: 1.0, constant: 50))
+        NSLayoutConstraint.activate([
+            settingsButton.heightAnchor.constraint(equalToConstant: 40),
+            settingsButton.widthAnchor.constraint(equalToConstant: 40),
+            settingsButton.bottomAnchor.constraint(equalTo: windowButton.topAnchor, constant: -70),
+            settingsButton.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -30)
+            
+        ])
         
         //Autolayout for Settings Button
         chestButton.translatesAutoresizingMaskIntoConstraints = false
         
-        chestButton.bottomAnchor.constraint(equalTo: windowButton.bottomAnchor).isActive = true
-        chestButton.heightAnchor.constraint(equalToConstant: 100).isActive = true
-        chestButton.widthAnchor.constraint(equalToConstant: 140).isActive = true
-
+        NSLayoutConstraint.activate([
+            chestButton.bottomAnchor.constraint(equalTo: windowButton.bottomAnchor),
+            chestButton.heightAnchor.constraint(equalToConstant: 100),
+            chestButton.widthAnchor.constraint(equalToConstant: 140),
+            chestButton.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -30)
+        ])
+        
     }
     
 }
