@@ -10,7 +10,7 @@
         <!--Outsideview View Controller-->
         <scene sceneID="AJY-6d-65G">
             <objects>
-                <viewController id="0HK-eO-PZI" customClass="OutsideviewViewController" customModule="Da_janela" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OutsideVC" id="0HK-eO-PZI" customClass="OutsideviewViewController" customModule="Da_janela" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3MP-kr-TAB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -23,6 +23,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ao4-kM-Oa9"/>
                     </view>
+                    <connections>
+                        <outlet property="outside" destination="P6Y-aN-fgU" id="VjI-dA-gQW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="942-rP-9i0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

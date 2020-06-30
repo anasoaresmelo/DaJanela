@@ -23,7 +23,7 @@
                                 <rect key="frame" x="66" y="210" width="284" height="405"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="l16-qI-hdg" kind="show" id="pNk-IP-VhU"/>
+                                    <segue destination="l16-qI-hdg" kind="show" id="qPb-wr-inK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nc9-lU-JIc">
@@ -46,6 +46,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="qiu-hK-VAS"/>
                     </view>
+                    <connections>
+                        <outlet property="chestButton" destination="Nc9-lU-JIc" id="dB9-Xg-QTu"/>
+                        <outlet property="insideImage" destination="n9z-b4-uMm" id="MoA-ET-hMg"/>
+                        <outlet property="settingsButton" destination="ch9-rs-XAm" id="BGz-sO-L64"/>
+                        <outlet property="windowbutton" destination="uU8-Wg-cEC" id="Lfh-Rr-uM2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YFM-yq-2f1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -71,10 +77,10 @@
             </objects>
             <point key="canvasLocation" x="-491" y="-23"/>
         </scene>
-        <!--Outsideview-->
+        <!--OutsideVC-->
         <scene sceneID="VRU-TB-7Bt">
             <objects>
-                <viewControllerPlaceholder storyboardName="Outsideview" id="l16-qI-hdg" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Outsideview" referencedIdentifier="OutsideVC" id="l16-qI-hdg" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="I2b-jP-R90"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2pu-ug-eYE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

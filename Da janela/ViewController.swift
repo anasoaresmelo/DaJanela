@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var windowbutton: UIButton!
+    @IBOutlet weak var insideImage: UIImageView!
+    @IBOutlet weak var chestButton: UIButton!
+    @IBOutlet weak var settingsButton: UIButton!
     
     
     override func viewDidLoad() {
