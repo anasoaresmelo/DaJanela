@@ -53,7 +53,7 @@ class ViewController: UIViewController {
             
         ])
         
-        //Autolayout for Settings Button
+        //Autolayout for Chest Button
         chestButton.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint.activate([
@@ -66,4 +66,5 @@ class ViewController: UIViewController {
     }
     
 }
+
 
