@@ -23,7 +23,7 @@
                                 <rect key="frame" x="66" y="210" width="284" height="405"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="l16-qI-hdg" kind="show" id="jGd-z8-wUD"/>
+                                    <segue destination="l16-qI-hdg" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="jGd-z8-wUD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nc9-lU-JIc">
@@ -43,7 +43,6 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="qiu-hK-VAS"/>
                     </view>
                     <connections>

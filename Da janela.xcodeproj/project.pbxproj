@@ -23,6 +23,7 @@
 		0EB346C92499368400FED97A /* ColletionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB346C82499368400FED97A /* ColletionsViewController.swift */; };
 		0EB346CB249936AE00FED97A /* OutsideviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB346CA249936AE00FED97A /* OutsideviewViewController.swift */; };
 		0EB346CD2499395500FED97A /* FirstConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB346CC2499395500FED97A /* FirstConversationViewController.swift */; };
+		0EE2808E24ABB39600830597 /* icone.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE2808D24ABB39500830597 /* icone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		0EB346C82499368400FED97A /* ColletionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColletionsViewController.swift; sourceTree = "<group>"; };
 		0EB346CA249936AE00FED97A /* OutsideviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutsideviewViewController.swift; sourceTree = "<group>"; };
 		0EB346CC2499395500FED97A /* FirstConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstConversationViewController.swift; sourceTree = "<group>"; };
+		0EE2808D24ABB39500830597 /* icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icone.png; path = ../../../../Downloads/icone.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				0E87C4D224894842008AFFEA /* Settings.storyboard */,
 				0E87C4A124888817008AFFEA /* Assets.xcassets */,
 				0E87C4A324888817008AFFEA /* LaunchScreen.storyboard */,
+				0EE2808D24ABB39500830597 /* icone.png */,
 				0E87C4A624888817008AFFEA /* Info.plist */,
 			);
 			path = "Da janela";
@@ -258,6 +261,7 @@
 			files = (
 				0E87C4A524888817008AFFEA /* LaunchScreen.storyboard in Resources */,
 				0E87C4A224888817008AFFEA /* Assets.xcassets in Resources */,
+				0EE2808E24ABB39600830597 /* icone.png in Resources */,
 				0E87C4D12489480F008AFFEA /* Collections.storyboard in Resources */,
 				0E87C4A024888816008AFFEA /* Main.storyboard in Resources */,
 				0E87C4CF248947BA008AFFEA /* Outsideview.storyboard in Resources */,

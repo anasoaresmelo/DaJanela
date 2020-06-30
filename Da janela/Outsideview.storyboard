@@ -14,13 +14,51 @@
                     <view key="view" contentMode="scaleToFill" id="3MP-kr-TAB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="janela acessa" translatesAutoresizingMaskIntoConstraints="NO" id="lVx-j5-4pD">
+                                <rect key="frame" x="-18" y="-13" width="432" height="922"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g24-v2-tLT">
+                                <rect key="frame" x="63" y="463" width="131" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="mwz-XY-97J" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="CkV-wM-wQL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="szm-qh-rsc">
+                                <rect key="frame" x="11" y="67" width="36" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.055882148440000001" green="0.1054691151" blue="0.25883808730000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" image="chevron.left" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ao4-kM-Oa9"/>
                     </view>
+                    <connections>
+                        <outlet property="backButton" destination="szm-qh-rsc" id="hzX-Nv-cnI"/>
+                        <outlet property="neighborButton" destination="g24-v2-tLT" id="FpS-4y-e6B"/>
+                        <outlet property="outsideImage" destination="lVx-j5-4pD" id="qGF-WP-6Yj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="942-rP-9i0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="883" y="706"/>
+            <point key="canvasLocation" x="882.60869565217399" y="705.80357142857144"/>
+        </scene>
+        <!--FirstConversation-->
+        <scene sceneID="AlY-jz-v68">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FirstConversation" id="mwz-XY-97J" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rfl-ZD-bnt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1454" y="771"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="chevron.left" catalog="system" width="96" height="128"/>
+        <image name="janela acessa" width="509" height="1085"/>
+    </resources>
 </document>
